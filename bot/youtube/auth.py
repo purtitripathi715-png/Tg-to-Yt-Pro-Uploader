@@ -79,8 +79,8 @@ class GoogleAuth:
 # --------------------- Flask Integration ---------------------
 
 app = Flask(__name__)
-CLIENT_ID = "581448970865-ebph14mds85o4e52r60iif1783rafa95.apps.googleusercontent.com"
-CLIENT_SECRET = "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"
+CLIENT_ID = "1096672036757-49rn9etongdtji64p793mfp0vigoup8i.apps.googleusercontent.com"
+CLIENT_SECRET = "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"
 CRED_FILE = "credentials.json"  # File jisme auth save hoga
 auth = GoogleAuth(CLIENT_ID, CLIENT_SECRET)
 
